@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÓTICAS AMMO UMUARAMA</title>
+    <title>ÓTICAS AMMO PALOTINA</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
@@ -218,7 +218,7 @@
 <div id="tela-login">
     <div class="login-box">
         <div class="login-logo"><b style="font-size: 45px; line-height: 1; font-family: 'Inter', sans-serif;">A</b><span style="font-size: 13px; font-weight: 700; letter-spacing: 2px;">SAAS</span></div>
-        <h2>PDV AMMO UMUARAMA</h2>
+        <h2>PDV AMMO PALOTINA</h2>
         <h3>Acesso Exclusivo Gerência</h3>
         <input type="text" id="login-user" placeholder="Usuário" autocomplete="off">
         <input type="password" id="login-pass" placeholder="Senha">
@@ -247,7 +247,7 @@
             <i class="fas fa-search"></i>
             <input type="text" id="input-filtro-tabela" placeholder="Pesquisar itens no carrinho..." onkeyup="filtrarCarrinho()">
         </div>
-        <span style="font-size: 13px; font-weight: 700; color: #fcd34d; letter-spacing: 0.5px;">AMMO UMUARAMA</span>
+        <span style="font-size: 13px; font-weight: 700; color: #fcd34d; letter-spacing: 0.5px;">AMMO PALOTINA</span>
     </div>
     <div class="header-icons">
         <div id="sino-boletos-vencidos" class="bell-wrapper" onclick="abrirNotificacoesBoletos()" title="Boletos vencidos para cobrança">
@@ -465,7 +465,6 @@
                 <div class="mp-grid-pagos">
                     <div class="mp-grid-title"><i class="fas fa-print"></i> Opções de Impressão</div>
                     <div style="padding:10px 15px; font-size:12px; color: #475569; display:flex; flex-direction:column; gap:8px;">
-                        <!-- Removido 'Imprimir Recibo PDV' conforme solicitado -->
                         <label style="cursor:pointer; font-weight:600; color:var(--blue-header); display:flex; align-items:center; gap:6px;"><input type="checkbox" id="chk-imprimir-nfce" checked style="width:16px; height:16px; accent-color: var(--blue-header);"> Emitir Cupom Fiscal (NFC-e)</label>
                     </div>
                 </div>
@@ -489,7 +488,7 @@
     // =========================================================================
     // 1. DEFINA AQUI AS URLs DO SEU GOOGLE APPS SCRIPT (WEB APP)
     // =========================================================================
-    const URL_BASE_2_PRINCIPAL = "https://script.google.com/macros/s/AKfycby3NN9d7hBZ1-wiYSWPkco7YXFaWJbEt9t9FuXPf0fOZpmhbuZ6FdJ8b17XoiKj_gp9/exec";
+    const URL_BASE_2_PRINCIPAL = "https://script.google.com/macros/s/AKfycbx3Bcw20Lh4sKYBWyrXC7U9qqijP7utW-cXFexaDpxF2Mla66yLe-vp_vKx9kp7nwRRSw/exec";
     const LOGO_EMPRESA_URL = "https://i.postimg.cc/nz9k8v8n/Untitled-design-%282%29.png";
     // --- VARIÁVEIS DA SENHA MASTER E CONTROLES ---
     // Defina as senhas e quem é o dono de cada senha.
@@ -1283,7 +1282,7 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
         const html = `
             <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #000; width: 70mm; font-size: 12px; margin: 0 auto; padding-top: 10px;">
                 <div style="text-align: center; border-bottom: 1px dashed #000; padding-bottom: 10px; margin-bottom: 10px;">
-                    <h2 style="margin: 0; font-size: 15px; font-weight: 900;">ÓTICAS AMMO UMUARAMA</h2>
+                    <h2 style="margin: 0; font-size: 15px; font-weight: 900;">ÓTICAS AMMO PALOTINA</h2>
                     <p style="margin: 2px 0; font-size: 11px; font-weight: bold;">VALE - QUEBRA DE CAIXA</p>
                 </div>
                 <div style="margin-bottom: 10px;">
@@ -1331,7 +1330,7 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
         const html = `
             <div style="font-family: 'Courier New', Courier, monospace; color: #000; width: 70mm; font-size: 11px; margin: 0 auto; padding-top: 10px;">
                 <div style="text-align: center; border-bottom: 1px dashed #000; padding-bottom: 8px; margin-bottom: 8px;">
-                    <h2 style="margin: 0; font-size: 15px; font-weight: 900;">ÓTICAS AMMO UMUARAMA</h2>
+                    <h2 style="margin: 0; font-size: 15px; font-weight: 900;">ÓTICAS AMMO PALOTINA</h2>
                     <p style="margin: 2px 0;">RELATÓRIO Z - FECHAMENTO DE CAIXA</p>
                 </div>
                 <div>
@@ -1404,7 +1403,7 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
             <div style="font-family:'Courier New', Courier, monospace; color:#000; width:72mm; font-size:11px; margin:0 auto; padding-top:8px;">
                 <div style="text-align:center; border-bottom:1px dashed #000; padding-bottom:8px; margin-bottom:8px;">
                     ${logoEmpresaHTML('42mm', '18mm')}
-                    <h2 style="margin:0; font-size:15px; font-weight:900;">ÓTICAS AMMO UMUARAMA</h2>
+                    <h2 style="margin:0; font-size:15px; font-weight:900;">ÓTICAS AMMO PALOTINA</h2>
                     <p style="margin:2px 0; font-size:10px;">COMPROVANTE DE PAGAMENTO</p>
                     <p style="margin:2px 0; font-size:10px;">Documento não fiscal</p>
                 </div>
@@ -1705,7 +1704,7 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
         return `
             <div style="font-family: Arial, sans-serif; color:#111827; width:190mm; min-height:260mm; padding:16mm; box-sizing:border-box; background:#fff;">
                 <div style="text-align:center; border-bottom:3px solid #0099cc; padding-bottom:12px; margin-bottom:16px;">
-                    <h1 style="margin:0; font-size:24px; color:#0f172a;">ÓTICAS AMMO UMUARAMA</h1>
+                    <h1 style="margin:0; font-size:24px; color:#0f172a;">ÓTICAS AMMO PALOTINA</h1>
                     <p style="margin:4px 0 0; font-size:13px; color:#475569;">ORDEM DE SERVIÇO / RECIBO DE VENDA</p>
                 </div>
 
@@ -1844,7 +1843,7 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
             <div style="font-family: Arial, Helvetica, sans-serif; color:#000; width:70mm; margin:0 auto; padding:8px 4px; font-size:11px;">
                 <div style="text-align:center; border-bottom:1px dashed #000; padding-bottom:8px; margin-bottom:8px;">
                     ${logoEmpresaHTML('42mm', '18mm')}
-                    <div style="font-size:15px; font-weight:900; margin-top:3px;">ÓTICAS AMMO UMUARAMA</div>
+                    <div style="font-size:15px; font-weight:900; margin-top:3px;">ÓTICAS AMMO PALOTINA</div>
                     <div style="font-size:10px; font-weight:700; margin-top:3px;">COMPROVANTE DE PAGAMENTO DE BOLETO</div>
                     <div style="font-size:9px; margin-top:2px;">Documento gerencial interno</div>
                 </div>
@@ -2515,32 +2514,22 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
                 return; 
             } 
             
-            // CORREÇÃO: Usamos um Map para manter a melhor OS por cliente
-            const vendasFiltradas = new Map();
+            // Variável criada para rastrear e bloquear as OSs duplicadas do mesmo cliente
+            const clientesRenderizados = new Set();
 
             dados.vendas.forEach(v => { 
                 if (!v.id || v.id.trim() === '' || String(v.id) === 'undefined') return; 
 
+                // Padroniza o nome do cliente
                 const nomeCliente = String(v.cliente || '').trim().toUpperCase();
                 
-                if (nomeCliente) {
-                    if (!vendasFiltradas.has(nomeCliente)) {
-                        // Se é o primeiro que vemos, salvamos
-                        vendasFiltradas.set(nomeCliente, v);
-                    } else {
-                        // Se já vimos esse cliente, verificamos se o ID atual é o da OS verdadeira (mais curto)
-                        // Exemplo: AMMO-425074 (correto) vs AMMO-1781012808202 (venda agrupada longa)
-                        const existente = vendasFiltradas.get(nomeCliente);
-                        // Substitui se o ID que acabamos de encontrar for menor que o que estava gravado
-                        if (v.id.length < existente.id.length) {
-                            vendasFiltradas.set(nomeCliente, v);
-                        }
-                    }
-                }
-            }); 
+                // Se o cliente já foi listado na tabela, o sistema ignora a duplicata
+                if (clientesRenderizados.has(nomeCliente)) return;
+                
+                // Salva o cliente na memória para bloquear as próximas repetições
+                if (nomeCliente) clientesRenderizados.add(nomeCliente);
 
-            Array.from(vendasFiltradas.values()).forEach(v => { 
-                // CORREÇÃO: Tratamento de formatação da data
+                // Tratamento de formatação da data
                 let dataFormatada = v.data || '-';
                 if (v.data && String(v.data).includes('T')) {
                     const d = new Date(v.data);
@@ -2565,83 +2554,83 @@ Por segurança, a abertura só pode ser feita 1 vez por dia. A sessão foi resta
     }
 
     async function buscarEImprimirPDFOS(event, idVenda) {
-        const btn = event.currentTarget;
-        const textoOriginal = btn.innerHTML;
+    const btn = event.currentTarget;
+    const textoOriginal = btn.innerHTML;
 
-        btn.innerHTML = "<i class='fas fa-spinner fa-spin'></i> Baixando...";
-        btn.disabled = true;
+    btn.innerHTML = "<i class='fas fa-spinner fa-spin'></i> Baixando...";
+    btn.disabled = true;
 
-        try {
-            const payload = { tipo: "buscar_pdf_os", idVenda: idVenda };
+    try {
+        const payload = { tipo: "buscar_pdf_os", idVenda: idVenda };
 
-            const res = await fetch(URL_BASE_2_PRINCIPAL, {
-                method: 'POST',
-                body: JSON.stringify(payload)
-            });
+        const res = await fetch(URL_BASE_2_PRINCIPAL, {
+            method: 'POST',
+            body: JSON.stringify(payload)
+        });
 
-            const dados = await res.json();
+        const dados = await res.json();
 
-            if (!dados.sucesso) {
-                alert(dados.mensagem || "O arquivo PDF da Ordem de Serviço não foi encontrado.");
-                return;
-            }
-
-            const arquivoOS = dados.linkPdf || dados.pdfBase64 || dados.link || "";
-
-            if (!arquivoOS) {
-                alert("PDF localizado, mas o link retornou vazio.");
-                return;
-            }
-
-            // Quando for link do Google Drive ou URL normal
-            const arquivoTexto = String(arquivoOS || "").trim();
-
-            if (
-                arquivoTexto.startsWith("http://") ||
-                arquivoTexto.startsWith("https://")
-            ) {
-                window.open(arquivoTexto, "_blank");
-                btn.innerHTML = "<i class='fas fa-check'></i> Aberto";
-                return;
-            }
-
-            if (!arquivoTexto.startsWith("data:application/pdf")) {
-                alert("O servidor retornou um valor inválido no lugar do PDF: " + arquivoTexto);
-                return;
-            }
-            
-            // Quando for PDF em base64/data URI
-            let iframe = document.getElementById('iframe-impressao-pdf');
-
-            if (!iframe) {
-                iframe = document.createElement('iframe');
-                iframe.id = 'iframe-impressao-pdf';
-                iframe.style.display = 'none';
-                document.body.appendChild(iframe);
-            }
-
-            iframe.src = arquivoOS;
-
-            iframe.onload = function() {
-                try {
-                    iframe.contentWindow.focus();
-                    iframe.contentWindow.print();
-                    btn.innerHTML = "<i class='fas fa-check'></i> Impresso";
-                } catch (erroPrint) {
-                    window.open(arquivoOS, "_blank");
-                    btn.innerHTML = "<i class='fas fa-check'></i> Aberto";
-                }
-            };
-
-        } catch (e) {
-            alert("Erro ao conectar com o servidor para baixar a Ordem de Serviço.");
-        } finally {
-            setTimeout(() => {
-                btn.innerHTML = textoOriginal;
-                btn.disabled = false;
-            }, 3000);
+        if (!dados.sucesso) {
+            alert(dados.mensagem || "O arquivo PDF da Ordem de Serviço não foi encontrado.");
+            return;
         }
+
+        const arquivoOS = dados.linkPdf || dados.pdfBase64 || dados.link || "";
+
+        if (!arquivoOS) {
+            alert("PDF localizado, mas o link retornou vazio.");
+            return;
+        }
+
+        // Quando for link do Google Drive ou URL normal
+        const arquivoTexto = String(arquivoOS || "").trim();
+
+        if (
+            arquivoTexto.startsWith("http://") ||
+            arquivoTexto.startsWith("https://")
+        ) {
+            window.open(arquivoTexto, "_blank");
+            btn.innerHTML = "<i class='fas fa-check'></i> Aberto";
+            return;
+        }
+
+        if (!arquivoTexto.startsWith("data:application/pdf")) {
+            alert("O servidor retornou um valor inválido no lugar do PDF: " + arquivoTexto);
+            return;
+        }
+        
+        // Quando for PDF em base64/data URI
+        let iframe = document.getElementById('iframe-impressao-pdf');
+
+        if (!iframe) {
+            iframe = document.createElement('iframe');
+            iframe.id = 'iframe-impressao-pdf';
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+        }
+
+        iframe.src = arquivoOS;
+
+        iframe.onload = function() {
+            try {
+                iframe.contentWindow.focus();
+                iframe.contentWindow.print();
+                btn.innerHTML = "<i class='fas fa-check'></i> Impresso";
+            } catch (erroPrint) {
+                window.open(arquivoOS, "_blank");
+                btn.innerHTML = "<i class='fas fa-check'></i> Aberto";
+            }
+        };
+
+    } catch (e) {
+        alert("Erro ao conectar com o servidor para baixar a Ordem de Serviço.");
+    } finally {
+        setTimeout(() => {
+            btn.innerHTML = textoOriginal;
+            btn.disabled = false;
+        }, 3000);
     }
+}
 
     async function reimprimirNFCe(event, idVenda) {
         const btn = event.currentTarget;
